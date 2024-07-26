@@ -1,0 +1,61 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+.container{
+    width: 99%;
+    height: 98%;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);    
+    gap: 10px;
+}
+div img{
+    height: 100%;
+    width: 100%;  
+  }
+  
+.one{
+    grid-column-start: 1;
+    grid-column-end: 10;
+    grid-row-start: 1;
+    grid-row-end: 6;
+}
+
+.two{
+    grid-column-start: 10;
+    grid-column-end: 13;
+    grid-row-start: 1;
+    grid-row-end: 6;
+}
+
+.three{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 6;
+    grid-row-end: 13;
+}
+
+.four{
+    grid-column-start: 4;
+    grid-column-end: 10;
+    grid-row-start: 6;
+  grid-row-end: 9;
+}
+
+.five{
+    grid-column-start: 4;
+    grid-column-end: 10;
+    grid-row-start: 9;
+  grid-row-end: 13;
+}
+
+.six{
+    grid-column-start: 10;
+    grid-column-end: 13;
+    grid-row-start: 6;
+  grid-row-end: 13;
+}

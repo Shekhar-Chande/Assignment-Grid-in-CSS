@@ -1,0 +1,44 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container{
+    display: grid;
+    width: 99%;
+    height: 98%;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(12, 1fr);
+    gap: 25px;
+}
+
+.container div:nth-child(odd){
+    background-color: rgb(39, 38, 38);
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+
+.container div:nth-child(even){
+    background-color: gray;
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+.one{
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.two{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}

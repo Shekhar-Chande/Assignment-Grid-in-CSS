@@ -1,0 +1,24 @@
+#example {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 5px;
+    justify-items: start;
+    background-color: #cccccc;
+  }
+  #example > div {
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    width: 100px;
+    height: 50px;
+  }
+  .one {
+    background-color: #1c87c9;
+  }
+  .two {
+    background-color: #8ebf42;
+  }
+  .three {
+    background-color: #666666;
+  }
